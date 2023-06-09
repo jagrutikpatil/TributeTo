@@ -1,0 +1,238 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html body{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: black;
+    height: 80px;
+    color: aliceblue;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    /* margin: 40px 20px; */
+    padding: 30px 25px;
+}
+h1{
+    justify-content: space-around;
+    /* font-size: 20px; */
+    /* width: 50px; */
+}
+
+li{
+    margin: 0 23px;
+}
+.list{
+    margin-right: 60%;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    color: antiquewhite;
+    /* background-color: azure; */
+}
+
+.right{
+    width: 60%;
+    min-height: 100vh;
+    /* background-color: rgb(255, 115, 0); */
+    float: left;
+    background-color: rgb(203, 197, 197);
+}
+.left{
+    width: 40%;
+    min-height: 100vh;
+    /* background-color: rgb(255, 255, 255); */
+    float: right;
+    background-color: rgb(203, 197, 197);
+}
+.left img{
+    width: 40vw;
+    height: 60vh;
+    padding: 50px 0;
+}
+.right h1{
+    margin-top: 6%;
+    margin-left: 38%;
+    /* margin-right: 80%; */
+    margin-bottom: 6%;
+    
+
+    /* margin: 70px 40px; */
+}
+.right .first{
+    font-size: 2rem;
+    margin-top: 19px;
+    margin-left: 30%;
+    color: rgb(255, 153, 0);
+    /* margin-bottom: 5%; */
+}
+.right .second{
+    font-size: 1rem;
+    /* margin-top: 10px; */
+    margin-left: 32%;
+    margin-bottom: 5%;
+}
+hr{
+    border: 2px solid black;
+    margin: 0 50px;
+}
+.paragraph{
+    /* margin: 35px 70px; */
+    margin-left: 32%;
+    margin-top: 10%;
+    font-size: 2rem;
+    margin-bottom: 7%;
+
+    /* justify-content: center;
+    align-items: center; */
+}
+.section1 .section2 .section3{
+    min-height: 100vh;
+    display: flex;
+}
+.con{
+    background-color: grey;
+}
+.con img{
+    margin: 20px 30px;
+}
+.ppart{
+    margin-top: 23px;
+    float: right;
+}
+.h3{
+    color: grey;
+    /* margin: 10px 30px; */
+}
+.heading{
+    margin: 10px 30px;
+}
+.paragraph1{
+    margin-top: 30px;
+}
+#heading1{
+    margin-top: 10px;
+}
+.acheivement h1{
+    justify-content: center;
+    margin: 30px 500px;
+}
+
+.card{
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.paragraph2{
+    margin: 0 50px;
+    font-size: large;
+    text-align: justify;
+}
+.secondimg img{
+    float: right;
+    height: 30vh;
+    width: 20vw;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.img1{
+    float: right;
+}
+.paragraph3{
+    margin: 30px 50px;
+    font-size: large;
+    text-align: justify;
+}
+#Photos{
+    background-color: grey;
+
+    
+}
+.section3 h1{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.picgall{
+    /* text-align: center; */
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.pic{
+    position: relative;
+    height: 230px;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.main1{
+    background-color: black;
+    height: 50vh;
+}
+footer p{
+    /* padding: 90px 15px; */
+    color: aliceblue;
+}
+.foodiv{
+    float: right;
+    width: 50%;
+    margin-right: 645px;
+    padding-top: 40px;
+
+}
+.foodiv h1{
+    font-size: 100rem;
+}
+
+
+.foodiv p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 210px;
+}
+input{
+    height: 50px;
+    width: 20vw;
+    justify-content: center;
+    text-align: center;
+    /* justify-content: space-around; */
+    margin-left: 210px;
+}
+.firstinp{
+    margin-bottom: 20px;
+}
+.foodiv button{
+    background-color: rgb(235, 184, 91);
+    width: 150px;
+    height: 45px;
+    border-radius: 2rem;
+    text-align: center;
+   
+}
+.btn button:hover{
+    background-color: antiquewhite;
+}
+.btn{
+    text-align: center;
+}
+
+
+
+
